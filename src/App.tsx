@@ -1,5 +1,12 @@
+import Board from './components/Board';
+import './App.css';
+
 function App() {
-  return <div id="app" />
+  return (
+    <div id="app">
+      <Board />
+    </div>
+  );
 }
 
-export default App
+export default App;
