@@ -13,12 +13,10 @@ function Board({ snake }: BoardProps) {
   return (
     <div
       className="board"
-      style={
-        {
-          '--board-rows': BOARD_ROWS,
-          '--board-cols': BOARD_COLS,
-        } as React.CSSProperties
-      }
+      style={{
+        gridTemplateRows: `repeat(${BOARD_ROWS}, 1fr)`,
+        gridTemplateColumns: `repeat(${BOARD_COLS}, 1fr)`,
+      }}
     >
       {cells.map((_, i) => {
         const row = Math.floor(i / BOARD_COLS);

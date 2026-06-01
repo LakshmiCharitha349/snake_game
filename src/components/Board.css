@@ -1,17 +1,16 @@
 .board {
   display: grid;
-  grid-template-rows: repeat(var(--board-rows), 1fr);
-  grid-template-columns: repeat(var(--board-cols), 1fr);
   width: 80vmin;
   height: 80vmin;
-  border-top: 1px solid #333;
-  border-left: 1px solid #333;
+  border: 2px solid #555;
   background-color: #1a1a2e;
+  box-sizing: border-box;
 }
 
 .board__cell {
-  border-right: 1px solid #2a2a3e;
-  border-bottom: 1px solid #2a2a3e;
+  border-right: 1px solid #333;
+  border-bottom: 1px solid #333;
+  box-sizing: border-box;
 }
 
 .board__cell--snake {
