@@ -13,3 +13,7 @@
   border-right: 1px solid #2a2a3e;
   border-bottom: 1px solid #2a2a3e;
 }
+
+.board__cell--snake {
+  background-color: #4ade80;
+}
