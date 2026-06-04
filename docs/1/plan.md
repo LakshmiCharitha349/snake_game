@@ -49,3 +49,6 @@ Use `npm create vite@latest` with the `react-ts` template to scaffold the projec
 |------|-----------|
 | Vite boilerplate leftover clutters the codebase | Explicit cleanup step in implementation |
 | Board constants hardcoded in wrong place | Export from `src/constants/board.ts` only — no magic numbers elsewhere |
+
+## Status: Completed
+Implemented in 4 tasks. All tests passing. Final commit: 813d3bd.

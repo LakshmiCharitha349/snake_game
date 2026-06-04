@@ -1,53 +1,102 @@
 # Snake Game
 
-## Stack
+## Project Overview
+
+Build a classic Snake game using React, TypeScript, and Vite.
+
+Development should follow an incremental workflow:
+
+Issue → Context Analysis → Task Creation → Implementation
+
+Only work on the currently approved issue and task.
+
+---
+
+## Technology Stack
 
 * React
 * TypeScript
 * Vite
 
-## Rules
+---
 
-* Build incrementally.
-* Implement only the requested feature.
-* Keep responses concise.
-* Explain only when asked.
-* Do not generate multiple features at once.
-* Prefer simple and readable code.
+## Coding Standards
+
 * Use TypeScript strict mode.
-* Reuse existing code where possible.
-* Ask before major refactors.
+* Prefer functional React components.
+* Keep components focused on a single responsibility.
+* Prefer readability over clever implementations.
+* Reuse existing code before introducing new abstractions.
+* Avoid premature optimization.
+* Follow existing project patterns.
 
-## Feature Order
+---
 
-1. Project setup
-2. Game board
-3. Snake rendering
-4. Movement
-5. Controls
-6. Food
-7. Scoring
-8. Collision detection
-9. Game over
-10. Restart
-11. Polish
+## Development Rules
 
+* Implement only the requested task.
+* Do not implement future roadmap items.
+* Do not modify unrelated code.
+* Ask before performing major refactors.
+* Keep changes as small as possible.
+* Complete one task before starting another.
 
-Build a Snake game.
+---
 
-Before writing code:
-1. Explain architecture
-2. List files needed
-3. Explain game loop
-4. Explain state management
+## Architecture Guidelines
 
-Do not generate code yet.
+* Keep UI components separate from game logic.
+* Store reusable game logic outside React components when possible.
+* Prefer pure functions for game calculations.
+* Keep state management simple.
+* Create new files only when justified by complexity or reuse.
 
-Create the initial project structure.
+---
 
-Files:
-- index.html
-- style.css
-- script.js
+## Issue Workflow
 
-Generate only the minimal setup needed to render a game board.
+When working on an issue:
+
+1. Read the issue description.
+2. Review acceptance criteria.
+3. Identify dependencies.
+4. Create implementation tasks.
+5. Implement one task at a time.
+6. Verify acceptance criteria are satisfied.
+
+---
+
+## Task Workflow
+
+For each task:
+
+* Understand the objective.
+* Identify impacted files.
+* Implement the smallest working solution.
+* Validate behavior.
+* Mark the task complete.
+
+---
+
+## Out of Scope
+
+Do not add features that are not explicitly requested by the current issue.
+
+Examples:
+
+* Future gameplay mechanics
+* Additional UI enhancements
+* Refactors unrelated to the task
+* Performance optimizations without evidence
+
+---
+
+## Definition of Done
+
+A task is complete when:
+
+* Acceptance criteria are satisfied.
+* TypeScript compilation succeeds.
+* No new warnings or errors are introduced.
+* Existing functionality remains unaffected.
+* Changes are limited to the scope of the task.
